@@ -30,7 +30,6 @@ export default function App() {
   const positiveFeedback = Math.round(
     ((clicks.good + clicks.neutral) / totalFeedback) * 100
   );
-  console.log(totalFeedback);
   return (
     <div>
       <Description />
